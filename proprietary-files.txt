@@ -1,5 +1,5 @@
 # Hotspot
-bin/netd|c04aed547ab411704e1c8c8b7f411387fb0279c5
+bin/netd
 
 # Offline Charging
 bin/kpoc_charger
