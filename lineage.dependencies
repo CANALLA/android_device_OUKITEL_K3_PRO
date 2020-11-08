@@ -3,7 +3,7 @@
     "remote":      "github",
     "repository":  "CANALLA/android_device_OUKITEL_K3_PRO",
     "target_path": "device/OUKITEL/K3_Pro",
-    "branch":      "master"
+    "branch":      "common-tree"
   },
   {
     "remote":      "github",
