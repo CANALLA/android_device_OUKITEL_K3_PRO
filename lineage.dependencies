@@ -1,14 +1,14 @@
 [
   {
     "remote":      "github",
-    "repository":  "UMIDIGI-MT6763-Development/android_device_umidigi_breeze",
-    "target_path": "device/UMIDIGI/A5_Pro",
+    "repository":  "CANALLA/android_device_OUKITEL_K3_PRO",
+    "target_path": "device/OUKITEL/K3_Pro",
     "branch":      "master"
   },
   {
     "remote":      "github",
-    "repository":  "UMIDIGI-MT6763-Development/android_vendor_umidigi_breeze",
-    "target_path": "vendor/UMIDIGI/A5_Pro",
+    "repository":  ""CANALLA/android_vendor_OUKITEL_K3_PRO/,
+    "target_path": "vendor/OUKITEL/K3_Pro",
     "branch":      "master"
   },
     {
