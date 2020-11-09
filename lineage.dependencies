@@ -3,30 +3,36 @@
     "remote":      "github",
     "repository":  "CANALLA/android_device_OUKITEL_K3_Pro",
     "target_path": "device/OUKITEL/K3_Pro",
-    "branch":      "common-tree"
+    "branch":      "lineage-17.1"
   },
   {
     "remote":      "github",
-    "repository":  ""CANALLA/android_vendor_OUKITEL_K3_pro/,
+    "repository":  "CANALLA/android_vendor_OUKITEL_K3_pro",
     "target_path": "vendor/OUKITEL/K3_Pro",
-    "branch":      "master"
+    "branch":      "lineage-17.1"
   },
     {
     "remote":      "github",
-    "repository":  "LineageOS/android_hardware_mediatek",
+    "repository":  "CANALLA/android_hardware_mediatek",
     "target_path": "hardware/mediatek",
     "branch":      "lineage-17.1"
   },
   {
     "remote":      "github",
-    "repository":  "AgentFabulous/vendor_mediatek_hardware_telephony-ext",
+    "repository":  "CANALLA/vendor_mediatek_hardware_telephony-ext",
     "target_path": "vendor/mediatek/hardware/telephony-ext",
-    "branch":      "wip"
+    "branch":      "lineage-17.1"
   },
   {
     "remote":      "github",
-    "repository":  "PeterCxy/vendor_mediatek_hardware_interfaces",
+    "repository":  "CANALLA/vendor_mediatek_hardware_interfaces",
     "target_path": "vendor/mediatek/hardware/interfaces",
-    "branch":      "lineage-17.0"
+    "branch":      "lineage-17.1"
+  },
+  {
+    "remote":      "github",
+    "repository":  "CANALLA/patches_oukitel_k3_pro",
+    "target_path": "vendor/mediatek/hardware/interfaces",
+    "branch":      "lineage-17.1"
   }
 ]
