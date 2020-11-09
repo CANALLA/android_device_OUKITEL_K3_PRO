@@ -104,8 +104,8 @@ TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)/releasetools
 # Sepolicy
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
 
-# Soong
-PRODUCT_SOONG_NAMESPACES := vendor/OUKITEL/K3_Pro
+# Soong ( Variable defition match in vendor files )
+#PRODUCT_SOONG_NAMESPACES += vendor/OUKITEL/K3_Pro
 
 # Security patch level
 VENDOR_SECURITY_PATCH := 2019-06-05
