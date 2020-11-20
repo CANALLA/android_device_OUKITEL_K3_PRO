@@ -16,7 +16,9 @@
 */
 -->
 <resources>
+    <!--
     <dimen name="rounded_corner_content_padding">16dp</dimen>
-    <dimen name="recents_task_view_rounded_corners_radius">9dp</dimen>
-    <dimen name="navigation_side_padding">85dp</dimen>
+    <dimen name="recents_task_view_rounded_corners_radius">9dp</dimen> 
+    -->
+    <dimen name="navigation_side_padding">85dp</dimen> 
 </resources>
