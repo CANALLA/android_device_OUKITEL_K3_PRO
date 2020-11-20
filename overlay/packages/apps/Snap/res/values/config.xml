@@ -26,9 +26,8 @@
          A value of -1 enables support for all available cameras reported by HAL -->
     <integer name="number_of_supported_cameras">3</integer>
 
-    <!-- Enable support for bokeh mode 
+    <!-- Enable support for bokeh mode -->
     <bool name="support_bokeh_mode">true</bool>
-    -->
 
     <!-- Enable support for camera api v2 -->
     <bool name="support_camera_api_v2">true</bool>
