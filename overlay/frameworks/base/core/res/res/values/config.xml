@@ -132,10 +132,10 @@
     <bool name="config_setColorTransformAccelerated">true</bool>
 
     <!-- Whether a software navigation bar should be shown. NOTE: in the future this may be autodetected from the Configuration. -->
-    <bool name="config_showNavigationBar">true</bool>
+    <bool name="config_showNavigationBar">false</bool>
 
     <!-- Whether or not swipe up gesture's opt-in setting is available on this device -->
-    <bool name="config_swipe_up_gesture_setting_available">true</bool>
+    <bool name="config_swipe_up_gesture_setting_available">false</bool>
 
     <!-- Flag indicating if the speed up audio on mt call code should be executed -->
     <bool name="config_speed_up_audio_on_mt_calls">false</bool>
@@ -228,30 +228,7 @@
 
     <!-- ImsService package name to bind to by default, if config_dynamic_bind_ims is true -->
     <string name="config_ims_package">com.mediatek.ims</string>
-
-    <!-- Like config_mainBuiltInDisplayCutout, but this path is used to report the
-         one single bounding rect per device edge to the app via
-         {@link DisplayCutout#getBoundingRect}. Note that this path should try to match the visual
-         appearance of the cutout as much as possible, and may be smaller than
-         config_mainBuiltInDisplayCutout -->
-    <!--    
-    <string translatable="false" name="config_mainBuiltInDisplayCutout">
-    	M 0,0
-    	L -20, 0
-    	L -13.540446283, 15.0595537175
-    	C -10.0582133885, 22.0178661152 -5.6, 23.5 -1.0, 24.0
-    	L 1.0, 24.0
-    	C 5.6, 23.5 10.0582133885, 22.0178661152 13.540446283, 15.0595537175
-    	L 20, 0
-    	Z @dp</string>
-    -->
-
-    <!-- Whether the display cutout region of the main built-in display should be forced to
-         black in software (to avoid aliasing or emulate a cutout that is not physically existent). -->
-    <!--
-    <bool name="config_fillMainBuiltInDisplayCutout">true</bool> 
-    -->
-     
+  
     <!-- MMS user agent string -->
     <string name="config_mms_user_agent">Android-Mms/0.1</string>
 
@@ -530,5 +507,8 @@
     <!-- Enables or disables haptic effect when the text insertion/selection handle is moved
     manually by the user. Off by default, since the expected haptic feedback may not be available on some devices. -->
     <bool name="config_enableHapticTextHandle">true</bool>
+     
+    <!-- Whether to cleanup fingerprints upon connection to the daemon and when user switches -->
+    <bool name="config_cleanupUnusedFingerprints">false</bool>
 
 </resources>
