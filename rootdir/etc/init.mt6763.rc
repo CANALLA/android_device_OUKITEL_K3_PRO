@@ -1,4 +1,3 @@
-import /system/etc/init/init.safailnet.rc
 
 on init
     # Override fingerprint
