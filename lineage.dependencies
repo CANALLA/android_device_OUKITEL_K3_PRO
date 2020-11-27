@@ -22,11 +22,5 @@
     "repository":  "CANALLA/vendor_mediatek_hardware_interfaces",
     "target_path": "vendor/mediatek/hardware/interfaces",
     "branch":      "lineage-17.1"
-  },
-  {
-    "remote":      "github",
-    "repository":  "CANALLA/patches_oukitel_k3_pro",
-    "target_path": "patches_oukitel_k3_pro",
-    "branch":      "lineage-17.1"
   }
 ]
