@@ -7,9 +7,6 @@
 # Get non-open-source specific aspects
 $(call inherit-product-if-exists, vendor/OUKITEL/K3_Pro/K3_Pro-vendor.mk)
 
-# Vendor properties
--include $(LOCAL_PATH)/vendor_props.mk
-
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
