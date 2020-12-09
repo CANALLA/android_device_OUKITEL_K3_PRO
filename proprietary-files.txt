@@ -6,4 +6,6 @@ bin/kpoc_charger
 etc/init/kpoc_charger.rc
 lib/libshowlogo.so
 lib/libsysenv_system.so
+
+# Ril patched
 lib64/libmtk-ril.so
