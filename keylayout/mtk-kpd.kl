@@ -94,3 +94,7 @@ key 163   MEDIA_NEXT
 key 165   MEDIA_PREVIOUS
 key 168   MEDIA_REWIND
 key 159   MEDIA_FAST_FORWARD
+
+# agold add
+key 249   FUNC1
+key 250   FUNC2
