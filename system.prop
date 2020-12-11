@@ -1,7 +1,7 @@
 
 # RIL
-vendor.rild.libpath=/vendor/lib64/libmtk-ril.so
-vendor.rild.libargs=-d /dev/ttyC0
+vendor.rild.libpath=/vendor/lib64/libmtk-ril.so \
+vendor.rild.libargs=-d/dev/ttyC0
 
 # MTK, Infinity, 20090720 {
 wifi.interface=wlan0
