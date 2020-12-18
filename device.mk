@@ -35,7 +35,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     SystemUI
 
-# Init cripts
+# Init scripts
 PRODUCT_PACKAGES += \
     fstab.enableswap \
     init.mt6763.rc \
