@@ -10,17 +10,5 @@
     "repository":  "CANALLA/android_hardware_mediatek",
     "target_path": "hardware/mediatek",
     "branch":      "lineage-17.1"
-  },
-  {
-    "remote":      "github",
-    "repository":  "CANALLA/vendor_mediatek_hardware_telephony-ext",
-    "target_path": "vendor/mediatek/hardware/telephony-ext",
-    "branch":      "lineage-17.1"
-  },
-  {
-    "remote":      "github",
-    "repository":  "CANALLA/vendor_mediatek_hardware_interfaces",
-    "target_path": "vendor/mediatek/hardware/interfaces",
-    "branch":      "lineage-17.1"
   }
 ]
