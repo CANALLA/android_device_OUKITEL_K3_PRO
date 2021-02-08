@@ -49,7 +49,7 @@ TARGET_NO_BOOTLOADER := true
 BOARD_CHARGER_ENABLE_SUSPEND := true
 
 # Symbols
-TARGET_LD_SHIM_LIBS := /system/lib/libshowlogo.so|libshim_showlogo.so
+#TARGET_LD_SHIM_LIBS := /system/lib/libshowlogo.so|libshim_showlogo.so
 
 # Kernel
 BOARD_KERNEL_CMDLINE := bootopt=64S3,32N2,64N2 androidboot.selinux=permissive
