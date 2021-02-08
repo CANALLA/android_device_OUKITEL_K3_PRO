@@ -75,3 +75,6 @@ sys.ipo.disable=1
 ro.config.alarm_vol_default = 15
 ro.config.media_vol_default = 15
 #niejj end
+
+# Disable split screen
+ro.config.low_ram=true
