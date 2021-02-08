@@ -42,8 +42,8 @@ PRODUCT_PACKAGES += \
     fstab.mt6763
 
 # Symbols
-PRODUCT_PACKAGES += \
-    libshim_showlogo
+#PRODUCT_PACKAGES += \
+#    libshim_showlogo
 
 # Keylayouts
 PRODUCT_COPY_FILES += \
@@ -72,3 +72,8 @@ PRODUCT_COPY_FILES += \
 # LiveDisplay
 PRODUCT_PACKAGES += \
     lineage.livedisplay@2.0-service-mediatek
+
+# Fix build    
+PRODUCT_PACKAGES += \
+    simg2img \
+    mkuserimg_mke2fs.sh
